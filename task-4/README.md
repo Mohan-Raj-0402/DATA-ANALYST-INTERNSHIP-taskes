@@ -27,7 +27,8 @@ Use filters/slicers for:
 * Sales Person
 * Membership Level
 * Customer Rating
-![image](https://github.com/user-attachments/assets/6b5f27b0-2fde-489a-8c2d-5182e0269d20)
+![image](https://github.com/user-attachments/assets/9ad09912-f01e-4798-bd10-8885483abfb6)
+
 
 * dataset link ---> https://www.kaggle.com/datasets/tianrongsim/hotel-sales-2024?select=transactions+%281%29.xlsx
 
