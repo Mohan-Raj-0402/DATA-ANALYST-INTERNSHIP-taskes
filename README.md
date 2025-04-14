@@ -35,7 +35,7 @@ Explore available tools and documentation
 
 ## Contributors
 Mohan Raj 
-(www.linkedin.com/in/mohanraj-b-486750252)
+
 
 Contributions are welcome! Please open issues or submit pull requests for improvements.
 ## Installation
