@@ -1,7 +1,8 @@
 ** The supper store analysis **
 # Superstore Sales Analysis Dashboard
 
-![WhatsApp Image 2025-04-08 at 21 31 33_88473e4d](https://github.com/user-attachments/assets/3eb7129f-26fe-4808-8813-be59e81684fb)
+
+![Screenshot 2025-04-08 213120](https://github.com/user-attachments/assets/d934d321-90d9-4be8-8d6f-1d13691394dd)
 
 
 This project presents a detailed Power BI dashboard that analyzes the **Sample Superstore** dataset. The goal is to uncover insights into sales performance, customer behavior, product trends, and regional performance to support data-driven decision-making.
