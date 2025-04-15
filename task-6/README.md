@@ -21,3 +21,4 @@ This project analyzes sales data to segment revenue and order volume by year/mon
 ## 📈 Visualization (Optional)
 To visualize trends, use tools like:
 Python: Use matplotlib or seaborn for plotting.
+(https://github.com/Mohan-Raj-0402/DATA-ANALYST-INTERNSHIP-taskes/blob/main/task-6/Average%20Profit%20per%20Order.ipynb)
