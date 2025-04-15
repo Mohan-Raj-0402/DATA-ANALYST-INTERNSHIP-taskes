@@ -18,6 +18,8 @@ This project analyzes sales data to segment revenue and order volume by year/mon
 4. **Time Filtering**  
    - Limited results to specific time periods (e.g., 2016–2017).
 
+![image](https://github.com/user-attachments/assets/d8fd6762-91d2-4f7f-b53a-2ebcdf8debe1)
+
 ## 📈 Visualization (Optional)
 To visualize trends, use tools like:
 Python: Use matplotlib or seaborn for plotting.
