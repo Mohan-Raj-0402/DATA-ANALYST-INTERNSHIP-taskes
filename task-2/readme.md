@@ -48,17 +48,17 @@ The dashboard walks the user through key business questions and gives actionable
 
 ---
 
-## 🎯 Business Questions Answered
+##  Business Questions Answered
 
-- 💸 Where are we losing money and why?
-- 🛒 Which products should we promote or discontinue?
-- 📦 Which shipping methods are the most cost-effective?
-- 🌍 Where should we expand or pull back operations?
-- 👥 Who are our most valuable customers?
+-  Where are we losing money and why?
+-  Which products should we promote or discontinue?
+-  Which shipping methods are the most cost-effective?
+-  Where should we expand or pull back operations?
+-  Who are our most valuable customers?
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 
 - **Power BI Desktop**
 - **Microsoft Excel / CSV**
@@ -67,7 +67,7 @@ The dashboard walks the user through key business questions and gives actionable
 
 ---
 
-## 📂 Files
+##  Files
 
 - `super store analysis.pbix` — The Power BI dashboard file.
 - `Sample - Superstore.csv` — The raw data used in the dashboard.
@@ -90,7 +90,7 @@ The dashboard walks the user through key business questions and gives actionable
 
 ---
 
-## 📝 License
+##  License
 
 This project is for educational and analytical purposes. Feel free to use or modify it for your own business analysis.
 
