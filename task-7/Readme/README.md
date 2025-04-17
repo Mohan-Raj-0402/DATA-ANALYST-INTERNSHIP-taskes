@@ -1,4 +1,4 @@
-## 📊 Task 7 – Sales Summary using SQLite, Python & Power BI
+## 📊 Task 7 – Sales Summary using SQLite & Python 
 
 ### 🔍 Objective
 
@@ -50,8 +50,8 @@ The goal of this task was to analyze a small sales dataset using SQL queries ins
 
 ### 📷 Screenshots
 
-*(![newplot](https://github.com/user-attachments/assets/adb76e2e-aeb1-4136-ba5f-84f402f55ad6)
+![newplot](https://github.com/user-attachments/assets/adb76e2e-aeb1-4136-ba5f-84f402f55ad6)
 
 ![3D Revenue by Product](https://github.com/user-attachments/assets/7ced47c3-f671-42de-8f33-e98ebdb15203)
-)*
+
 ---
