@@ -43,8 +43,7 @@ The goal of this task was to analyze a small sales dataset using SQL queries ins
 | `sales_data.db` | SQLite database |
 | `sales_chart.png` | 2D bar chart (Matplotlib) |
 | `sales_chart_3d.png` | 3D bar chart (Matplotlib) |
-| `sales_summary.csv` | Data exported for Power BI |
-| `README.md` | This file! ✔️
+| `README.md` | This file! 
 
 ---
 
