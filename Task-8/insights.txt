@@ -1,0 +1,31 @@
+# Sales Dashboard – Key Insights
+
+1. Regional Performance
+- The **East** region has generated significant profit, especially from the state of **Maryland**.
+- The **Central** region includes both high-performing and low-profit orders, indicating mixed performance.
+
+2. Profit Analysis
+- Most products generate positive profit.
+- A few products such as "Imation Clip USB flash drive - 8 GB" and "WD My Passport Ultra 1TB Hard Drive" show **negative profits**, which may suggest returns or heavy discounts.
+
+3. Category Contribution
+- **Technology** and **Furniture** categories are the top contributors to total sales.
+- Office Supplies items tend to have lower individual profits but occur more frequently.
+
+4. Customer Segment Behavior
+- The **Corporate** segment makes more purchases and contributes a larger share to sales volume.
+- The **Consumer** segment shows moderate purchases with relatively lower profit margins.
+
+5. Date-Based Trends
+- Sales are active across different months in 2019.
+- Most orders ship within a week of the order date.
+
+6. Payment Mode Distribution
+- **Online** payment is the most preferred method, followed by **Cards** and **Cash on Delivery (COD)**.
+- COD orders show both high and low profits, which may need monitoring for risks or returns.
+
+7. Return Summary
+- Very few returns are recorded (0 in the shared sample), which is a positive sign for customer satisfaction.
+
+# Summary
+This dashboard enables interactive exploration of sales data by Region, Category, Segment, and Payment Mode. It helps identify top-performing areas and products, while highlighting areas needing attention like loss-making accessories or delayed shipments.
