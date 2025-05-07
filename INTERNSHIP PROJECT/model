@@ -1,0 +1,55 @@
+from flask import Flask, render_template, request
+import pandas as pd
+import numpy as np
+import pickle
+from sklearn.preprocessing import StandardScaler
+
+# Load the trained model (assuming you have trained it and saved it as a pickle file)
+with open('model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
+
+# Initialize the Flask app
+app = Flask(__name__)
+
+# Sample data for insights (you can load and compute these from your dataset)
+df = pd.read_excel('SuperStore Sales DataSet.xlsx')
+
+@app.route('/')
+def index():
+    # Compute key insights (like return rates by product category, customer segment, etc.)
+    return_rates_by_category = df.groupby('Category')['Returns'].mean().sort_values(ascending=False)
+    return_rates_by_segment = df.groupby('Segment')['Returns'].mean().sort_values(ascending=False)
+    
+    return render_template('index.html', 
+                           return_rates_by_category=return_rates_by_category,
+                           return_rates_by_segment=return_rates_by_segment)
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    if request.method == 'POST':
+        # Get user input
+        order_id = request.form['Order_ID']
+        product_id = request.form['Product_ID']
+        quantity = int(request.form['Quantity'])
+        profit = float(request.form['Profit'])
+        # Other input features (add more as required)
+        
+        # Prepare data for prediction
+        user_input = pd.DataFrame({
+            'Product_ID': [product_id],
+            'Quantity': [quantity],
+            'Profit': [profit],
+            # Add other features here
+        })
+        
+        # Preprocess input (e.g., scale the data)
+        scaler = StandardScaler()
+        user_input_scaled = scaler.fit_transform(user_input)  # Adjust according to your preprocessing pipeline
+        
+        # Predict the return probability
+        return_probability = model.predict_proba(user_input_scaled)[:, 1]  # Assuming binary classification (return/no-return)
+
+        return render_template('result.html', return_probability=return_probability[0])
+
+if __name__ == '__main__':
+    app.run(debug=True)
